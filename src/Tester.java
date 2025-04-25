@@ -28,25 +28,25 @@ public class Tester{
             Insertion_Sort.insertionSort(arrsort);
         }
         else if(sortalg == 2){
-            Bubblesort.bubblesort();
+            Bubblesort.bubblesort(arrsort);
         }
         else if(sortalg == 3){
-            Divide_and_Conquer.DivideAndConquer();
+            Divide_and_Conquer.DivideAndConquer(arrsort);
         }
         else if(sortalg == 4){
-            Cocktailsort.cocktailsort();
+            Cocktailsort.cocktailsort(arrsort);
         }
         else if(sortalg == 5){
-            Count_sort.countsort();
+            Count_sort.countsort(arrsort);
         }
         else if(sortalg == 6){
-            Quicksort.quicksort();
+            Quicksort.quicksort(arrsort);
         }
         else if(sortalg == 7){
-            Heapsort.heapsort();
+            Heapsort.heapsort(arrsort);
         }
         else if(sortalg == 8){
-            Selection_sort.selection_sort();
+            Selection_sort.selection_sort(arrsort);
         }
         else{
             System.err.println("Not implementet yet");
