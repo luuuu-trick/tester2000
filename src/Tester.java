@@ -48,6 +48,9 @@ public class Tester{
         else if(sortalg == 8){
             Selection_sort.selection_sort(arrsort);
         }
+        /*else if(sortalg == 9){
+            Devalg.mergeSort(arrsort);
+        }*/
         else{
             System.err.println("Not implementet yet");
             return;
